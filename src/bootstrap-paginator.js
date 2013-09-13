@@ -269,14 +269,14 @@
 
             switch (alignment.toLowerCase()) {
 
-            case "center":
-                this.$element.addClass("pagination-centered");
-                break;
-            case "right":
-                this.$element.addClass("pagination-right");
-                break;
-            default:
-                break;
+                case "center":
+                    this.$element.css("text-align", "center");
+                    break;
+                case "right":
+                    this.$element.css("text-align", "right");
+                    break;
+                default:
+                    break;
 
             }
 
